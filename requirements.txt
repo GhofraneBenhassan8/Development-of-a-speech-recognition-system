@@ -1,0 +1,41 @@
+# TIMIT ASR Project - Requirements
+# Python 3.9
+
+# Deep Learning Framework
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Speech Processing
+speechbrain>=0.5.16
+librosa>=0.10.0
+soundfile>=0.12.1
+opensmile>=2.5.0
+
+# Audio I/O
+sounddevice>=0.4.6
+audioread>=3.0.0
+
+# NLP & Tokenization
+sentencepiece>=0.1.99
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Evaluation Metrics
+jiwer>=3.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+pathlib>=1.0.1
+
+# Progress bars
+rich>=13.0.0
+
+# Optional: For better audio handling
+pysoundfile>=0.9.0
+resampy>=0.4.0
